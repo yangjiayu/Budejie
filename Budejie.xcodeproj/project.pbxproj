@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B8AA24E6D42022A0A3A348F /* libPods-Budejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3DF2D314DF5999F1EB82A /* libPods-Budejie.a */; };
+		5FFBD696729A4F34CDF2D8A8 /* libPods-BudejieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10752B4C278C5BF9C058FB /* libPods-BudejieUITests.a */; };
 		7BF982A21E7E220700CD27C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982A11E7E220700CD27C8 /* main.m */; };
 		7BF982A51E7E220700CD27C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982A41E7E220700CD27C8 /* AppDelegate.m */; };
 		7BF982A81E7E220700CD27C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982A71E7E220700CD27C8 /* ViewController.m */; };
@@ -15,6 +17,14 @@
 		7BF982B01E7E220700CD27C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF982AE1E7E220700CD27C8 /* LaunchScreen.storyboard */; };
 		7BF982BB1E7E220700CD27C8 /* BudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982BA1E7E220700CD27C8 /* BudejieTests.m */; };
 		7BF982C61E7E220700CD27C8 /* BudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982C51E7E220700CD27C8 /* BudejieUITests.m */; };
+		7BF982D61E7E252200CD27C8 /* JYAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982D51E7E252200CD27C8 /* JYAdsViewController.m */; };
+		7BF982D91E7E27A400CD27C8 /* JYAdsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF982D81E7E27A400CD27C8 /* JYAdsViewController.storyboard */; };
+		7BF982DD1E7E2BCD00CD27C8 /* JYBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982DC1E7E2BCD00CD27C8 /* JYBaseAPIManager.m */; };
+		7BF982E31E7E5EC900CD27C8 /* JYCommonAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982E21E7E5EC900CD27C8 /* JYCommonAPIManager.m */; };
+		7BF982EA1E7E690100CD27C8 /* JYAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982E91E7E690100CD27C8 /* JYAdModel.m */; };
+		7BF982EF1E7E692E00CD27C8 /* JYAdViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982EE1E7E692E00CD27C8 /* JYAdViewModel.m */; };
+		7BF983031E7E7E6200CD27C8 /* RACAFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 7BF983021E7E7E6200CD27C8 /* RACAFNetworking */; };
+		8B444BCBD42F5AE484938FDD /* libPods-BudejieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A6D2D9432B97DD940AA801 /* libPods-BudejieTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF3DF2D314DF5999F1EB82A /* libPods-Budejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Budejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0738EFDCE8DA759F378376 /* Pods-BudejieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudejieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudejieTests/Pods-BudejieTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BA457FAB5007BBC57D84DBC /* Pods-Budejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Budejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Budejie/Pods-Budejie.release.xcconfig"; sourceTree = "<group>"; };
 		7BF9829D1E7E220700CD27C8 /* Budejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF982A11E7E220700CD27C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BF982A31E7E220700CD27C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,26 @@
 		7BF982C11E7E220700CD27C8 /* BudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF982C51E7E220700CD27C8 /* BudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudejieUITests.m; sourceTree = "<group>"; };
 		7BF982C71E7E220700CD27C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF982D41E7E252200CD27C8 /* JYAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAdsViewController.h; sourceTree = "<group>"; };
+		7BF982D51E7E252200CD27C8 /* JYAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAdsViewController.m; sourceTree = "<group>"; };
+		7BF982D71E7E26F500CD27C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7BF982D81E7E27A400CD27C8 /* JYAdsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JYAdsViewController.storyboard; sourceTree = "<group>"; };
+		7BF982DB1E7E2BCD00CD27C8 /* JYBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseAPIManager.h; sourceTree = "<group>"; };
+		7BF982DC1E7E2BCD00CD27C8 /* JYBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseAPIManager.m; sourceTree = "<group>"; };
+		7BF982E11E7E5EC900CD27C8 /* JYCommonAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCommonAPIManager.h; sourceTree = "<group>"; };
+		7BF982E21E7E5EC900CD27C8 /* JYCommonAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCommonAPIManager.m; sourceTree = "<group>"; };
+		7BF982E61E7E66E400CD27C8 /* APIConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConst.h; sourceTree = "<group>"; };
+		7BF982E81E7E690100CD27C8 /* JYAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAdModel.h; sourceTree = "<group>"; };
+		7BF982E91E7E690100CD27C8 /* JYAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAdModel.m; sourceTree = "<group>"; };
+		7BF982ED1E7E692E00CD27C8 /* JYAdViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAdViewModel.h; sourceTree = "<group>"; };
+		7BF982EE1E7E692E00CD27C8 /* JYAdViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAdViewModel.m; sourceTree = "<group>"; };
+		7BF983021E7E7E6200CD27C8 /* RACAFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RACAFNetworking; sourceTree = "<group>"; };
+		8CD27DBF476739B113024C75 /* Pods-Budejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Budejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Budejie/Pods-Budejie.debug.xcconfig"; sourceTree = "<group>"; };
+		8D442BED30AB69B398815783 /* Pods-BudejieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudejieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudejieTests/Pods-BudejieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC10752B4C278C5BF9C058FB /* libPods-BudejieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BudejieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A6D2D9432B97DD940AA801 /* libPods-BudejieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BudejieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BD584626E17A28C006F340 /* Pods-BudejieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudejieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudejieUITests/Pods-BudejieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F587BE3479A3F0B98898AEFD /* Pods-BudejieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudejieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudejieUITests/Pods-BudejieUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8AA24E6D42022A0A3A348F /* libPods-Budejie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B444BCBD42F5AE484938FDD /* libPods-BudejieTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +107,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFBD696729A4F34CDF2D8A8 /* libPods-BudejieUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F09B61EFACFF93545D778E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27DBF476739B113024C75 /* Pods-Budejie.debug.xcconfig */,
+				6BA457FAB5007BBC57D84DBC /* Pods-Budejie.release.xcconfig */,
+				8D442BED30AB69B398815783 /* Pods-BudejieTests.debug.xcconfig */,
+				0B0738EFDCE8DA759F378376 /* Pods-BudejieTests.release.xcconfig */,
+				E5BD584626E17A28C006F340 /* Pods-BudejieUITests.debug.xcconfig */,
+				F587BE3479A3F0B98898AEFD /* Pods-BudejieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7BF982941E7E220700CD27C8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +134,8 @@
 				7BF982B91E7E220700CD27C8 /* BudejieTests */,
 				7BF982C41E7E220700CD27C8 /* BudejieUITests */,
 				7BF9829E1E7E220700CD27C8 /* Products */,
+				1F09B61EFACFF93545D778E1 /* Pods */,
+				E777300CB2D3BE8BF6670D03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +152,14 @@
 		7BF9829F1E7E220700CD27C8 /* Budejie */ = {
 			isa = PBXGroup;
 			children = (
+				7BF982DE1E7E554100CD27C8 /* utility */,
+				7BF982DA1E7E2B0000CD27C8 /* network */,
+				7BF982D31E7E250300CD27C8 /* ads */,
 				7BF982A31E7E220700CD27C8 /* AppDelegate.h */,
 				7BF982A41E7E220700CD27C8 /* AppDelegate.m */,
 				7BF982A61E7E220700CD27C8 /* ViewController.h */,
 				7BF982A71E7E220700CD27C8 /* ViewController.m */,
+				7BF982D71E7E26F500CD27C8 /* PrefixHeader.pch */,
 				7BF982A91E7E220700CD27C8 /* Main.storyboard */,
 				7BF982AC1E7E220700CD27C8 /* Assets.xcassets */,
 				7BF982AE1E7E220700CD27C8 /* LaunchScreen.storyboard */,
@@ -140,6 +195,74 @@
 			path = BudejieUITests;
 			sourceTree = "<group>";
 		};
+		7BF982D31E7E250300CD27C8 /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				7BF982EC1E7E691600CD27C8 /* viewModel */,
+				7BF982EB1E7E690E00CD27C8 /* model */,
+				7BF982E71E7E68E500CD27C8 /* controller */,
+			);
+			name = ads;
+			sourceTree = "<group>";
+		};
+		7BF982DA1E7E2B0000CD27C8 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				7BF982DB1E7E2BCD00CD27C8 /* JYBaseAPIManager.h */,
+				7BF982DC1E7E2BCD00CD27C8 /* JYBaseAPIManager.m */,
+				7BF982E11E7E5EC900CD27C8 /* JYCommonAPIManager.h */,
+				7BF982E21E7E5EC900CD27C8 /* JYCommonAPIManager.m */,
+				7BF982E61E7E66E400CD27C8 /* APIConst.h */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		7BF982DE1E7E554100CD27C8 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				7BF983021E7E7E6200CD27C8 /* RACAFNetworking */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		7BF982E71E7E68E500CD27C8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BF982D41E7E252200CD27C8 /* JYAdsViewController.h */,
+				7BF982D51E7E252200CD27C8 /* JYAdsViewController.m */,
+				7BF982D81E7E27A400CD27C8 /* JYAdsViewController.storyboard */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		7BF982EB1E7E690E00CD27C8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7BF982E81E7E690100CD27C8 /* JYAdModel.h */,
+				7BF982E91E7E690100CD27C8 /* JYAdModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		7BF982EC1E7E691600CD27C8 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BF982ED1E7E692E00CD27C8 /* JYAdViewModel.h */,
+				7BF982EE1E7E692E00CD27C8 /* JYAdViewModel.m */,
+			);
+			name = viewModel;
+			sourceTree = "<group>";
+		};
+		E777300CB2D3BE8BF6670D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3DF2D314DF5999F1EB82A /* libPods-Budejie.a */,
+				C6A6D2D9432B97DD940AA801 /* libPods-BudejieTests.a */,
+				AC10752B4C278C5BF9C058FB /* libPods-BudejieUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BF982CA1E7E220700CD27C8 /* Build configuration list for PBXNativeTarget "Budejie" */;
 			buildPhases = (
+				AF320A68C96D95C0468A9C9B /* [CP] Check Pods Manifest.lock */,
 				7BF982991E7E220700CD27C8 /* Sources */,
 				7BF9829A1E7E220700CD27C8 /* Frameworks */,
 				7BF9829B1E7E220700CD27C8 /* Resources */,
+				D2158C254DAADF9ED39F76F3 /* [CP] Embed Pods Frameworks */,
+				52420E952253C2BE20410F4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BF982CD1E7E220700CD27C8 /* Build configuration list for PBXNativeTarget "BudejieTests" */;
 			buildPhases = (
+				90A510451144360CF5FC5215 /* [CP] Check Pods Manifest.lock */,
 				7BF982B21E7E220700CD27C8 /* Sources */,
 				7BF982B31E7E220700CD27C8 /* Frameworks */,
 				7BF982B41E7E220700CD27C8 /* Resources */,
+				A42BF62257C9F101E98A2660 /* [CP] Embed Pods Frameworks */,
+				A3B01F142AAF2FC13B701C75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BF982D01E7E220700CD27C8 /* Build configuration list for PBXNativeTarget "BudejieUITests" */;
 			buildPhases = (
+				87FB378962DF6CFB81E4D051 /* [CP] Check Pods Manifest.lock */,
 				7BF982BD1E7E220700CD27C8 /* Sources */,
 				7BF982BE1E7E220700CD27C8 /* Frameworks */,
 				7BF982BF1E7E220700CD27C8 /* Resources */,
+				875721414A59416467254D59 /* [CP] Embed Pods Frameworks */,
+				B38327B41A6334D37D408865 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +381,8 @@
 				7BF982B01E7E220700CD27C8 /* LaunchScreen.storyboard in Resources */,
 				7BF982AD1E7E220700CD27C8 /* Assets.xcassets in Resources */,
 				7BF982AB1E7E220700CD27C8 /* Main.storyboard in Resources */,
+				7BF982D91E7E27A400CD27C8 /* JYAdsViewController.storyboard in Resources */,
+				7BF983031E7E7E6200CD27C8 /* RACAFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +402,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52420E952253C2BE20410F4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budejie/Pods-Budejie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875721414A59416467254D59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BudejieUITests/Pods-BudejieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FB378962DF6CFB81E4D051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90A510451144360CF5FC5215 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B01F142AAF2FC13B701C75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BudejieTests/Pods-BudejieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42BF62257C9F101E98A2660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BudejieTests/Pods-BudejieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF320A68C96D95C0468A9C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B38327B41A6334D37D408865 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BudejieUITests/Pods-BudejieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2158C254DAADF9ED39F76F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budejie/Pods-Budejie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BF982991E7E220700CD27C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,7 +547,12 @@
 			files = (
 				7BF982A81E7E220700CD27C8 /* ViewController.m in Sources */,
 				7BF982A51E7E220700CD27C8 /* AppDelegate.m in Sources */,
+				7BF982D61E7E252200CD27C8 /* JYAdsViewController.m in Sources */,
 				7BF982A21E7E220700CD27C8 /* main.m in Sources */,
+				7BF982EA1E7E690100CD27C8 /* JYAdModel.m in Sources */,
+				7BF982E31E7E5EC900CD27C8 /* JYCommonAPIManager.m in Sources */,
+				7BF982EF1E7E692E00CD27C8 /* JYAdViewModel.m in Sources */,
+				7BF982DD1E7E2BCD00CD27C8 /* JYBaseAPIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +697,10 @@
 		};
 		7BF982CB1E7E220700CD27C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD27DBF476739B113024C75 /* Pods-Budejie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Budejie/PrefixHeader.pch";
 				INFOPLIST_FILE = Budejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ad.Budejie;
@@ -431,8 +710,10 @@
 		};
 		7BF982CC1E7E220700CD27C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA457FAB5007BBC57D84DBC /* Pods-Budejie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Budejie/PrefixHeader.pch";
 				INFOPLIST_FILE = Budejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ad.Budejie;
@@ -442,6 +723,7 @@
 		};
 		7BF982CE1E7E220700CD27C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D442BED30AB69B398815783 /* Pods-BudejieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BudejieTests/Info.plist;
@@ -454,6 +736,7 @@
 		};
 		7BF982CF1E7E220700CD27C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0738EFDCE8DA759F378376 /* Pods-BudejieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BudejieTests/Info.plist;
@@ -466,6 +749,7 @@
 		};
 		7BF982D11E7E220700CD27C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BD584626E17A28C006F340 /* Pods-BudejieUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BudejieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +761,7 @@
 		};
 		7BF982D21E7E220700CD27C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F587BE3479A3F0B98898AEFD /* Pods-BudejieUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BudejieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +790,7 @@
 				7BF982CC1E7E220700CD27C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF982CD1E7E220700CD27C8 /* Build configuration list for PBXNativeTarget "BudejieTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +799,7 @@
 				7BF982CF1E7E220700CD27C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF982D01E7E220700CD27C8 /* Build configuration list for PBXNativeTarget "BudejieUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +808,7 @@
 				7BF982D21E7E220700CD27C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

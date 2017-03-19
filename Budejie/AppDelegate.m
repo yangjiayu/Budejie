@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JYAdsViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JYAdsViewController *adsViewController = [[JYAdsViewController alloc] init];
+    self.window.rootViewController = adsViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

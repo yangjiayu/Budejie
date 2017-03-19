@@ -71,6 +71,7 @@ static NSString * const JYInternalNetworkingErrorDomain   = @"JYInternalNetworki
             return nil;
         }];
     }] doError:^(NSError *error) {
+        NSLog(@"====================");
     }];
 }
 

@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    JYAdsViewController *adsViewController = [[JYAdsViewController alloc] init];
+    JYAdsViewController *adsViewController = [[UIStoryboard storyboardWithName:@"JYAdsViewController" bundle:nil] instantiateInitialViewController];
     self.window.rootViewController = adsViewController;
     [self.window makeKeyAndVisible];
     return YES;

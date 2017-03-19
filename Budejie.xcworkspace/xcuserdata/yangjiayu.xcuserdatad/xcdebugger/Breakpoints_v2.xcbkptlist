@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Budejie/JYCommonAPIManager.m"
-            timestampString = "511602927.112279"
+            filePath = "Budejie/AFNetworking-RACExtensions/AFHTTPSessionManager+RACSupport.m"
+            timestampString = "511605670.062556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "-requestAds"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "-rac_GET:parameters:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,76 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Budejie/JYBaseAPIManager.m"
-            timestampString = "511607446.396207"
+            timestampString = "511629461.016658"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "-rac_requestPath:parameters:method:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Budejie/JYCommonAPIManager.m"
-            timestampString = "511605628.51911"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "-requestAds"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[JYCommonAPIManager requestAds]"
-                  moduleName = "Budejie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yangjiayu/Desktop/Budejie/Budejie/JYCommonAPIManager.m"
-                  timestampString = "511607447.527947"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__32-[JYCommonAPIManager requestAds]_block_invoke"
-                  moduleName = "Budejie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yangjiayu/Desktop/Budejie/Budejie/JYCommonAPIManager.m"
-                  timestampString = "511607447.536883"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Budejie/AFNetworking-RACExtensions/AFHTTPSessionManager+RACSupport.m"
-            timestampString = "511605670.062556"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "-rac_GET:parameters:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

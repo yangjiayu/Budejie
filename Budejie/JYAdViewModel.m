@@ -9,6 +9,8 @@
 #import "JYAdViewModel.h"
 #import "JYCommonAPIManager.h"
 
+static NSInteger JYADSDefaultTimerSeconds = 3;
+
 @interface JYAdViewModel()
 @property (nonatomic, strong) RACCommand *requestAdsCommand;
 

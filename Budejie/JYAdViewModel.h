@@ -10,6 +10,8 @@
 
 @interface JYAdViewModel : NSObject
 
+@property (nonatomic, copy) NSString *adsButtonTitle;
+
 - (RACCommand *)requestAds;
 
 @end

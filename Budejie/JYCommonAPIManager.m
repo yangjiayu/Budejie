@@ -48,7 +48,8 @@ static inline RACScheduler *MainScheduler() {
 
 - (RACSignal *)requestAds {
     return [[[[self rac_GET:ADURL parameters:nil] deliverOn:self.serializingScheduler] flattenMap:^RACStream *(id value) {
-        return JYParseJSONObjectsToModels(nil, value);
+        // return JYParseJSONObjectsToModels(nil, value);
+        return nil;
     }] deliverOn:MainScheduler()];
 }
 @end

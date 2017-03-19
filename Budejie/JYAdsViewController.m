@@ -10,6 +10,8 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "JYAdViewModel.h"
 
+static NSInteger JYADSDefaultTimerSeconds = 3;
+
 @interface JYAdsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIButton *button;
@@ -26,11 +28,27 @@
     return _viewModel;
 }
 
+- (RACCommand *)timeCountingCommand {
+    return [[RACCommand alloc] initWithSignalBlock:^RACSignal *(NSNumber *number) {
+        __block NSInteger seconds = [number integerValue];
+        return [[[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+            seconds--;
+            [subscriber sendNext:@(seconds)];
+            [subscriber sendCompleted];
+            return nil;
+        }] delay:1.0] repeat] takeUntilBlock:^BOOL(id x) {
+            return seconds < 0;
+        }];
+    }];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.imageView.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImage" ofType:@"png"]];
     [self.viewModel.requestAds execute:nil];
+    //RAC(self, button.titleLabel.text) = [[self timeCountingCommand] execute:@(JYADSDefaultTimerSeconds)];
+
 }
 
 @end

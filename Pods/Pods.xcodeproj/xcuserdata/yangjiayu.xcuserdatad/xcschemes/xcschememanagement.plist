@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking-RACExtensions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,12 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>189A7528556B8D52A2BDEA2CD39E1842</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2E58F0DCB42EAA5B22EFCF5BDD6125D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5AC1DF99CD8AD5BA8DBE932B36453308</key>
+		<key>5FD8274EC406C2C65519046733AE732D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,17 +77,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<key>A0E88806D94B864DDDA5B6CDF8BAD510</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A6E0D84164A77A2BF94FF2CA64BC6073</key>
+		<key>ADC7535811CFD3BBCD2690D5986A2BB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D71E6694006CAC7C83B2C9AD1F24DA04</key>
+		<key>C95C45974D77E3E41FE9D2A80E093179</key>
 		<dict>
 			<key>primary</key>
 			<true/>

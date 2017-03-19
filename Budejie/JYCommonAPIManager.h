@@ -7,7 +7,7 @@
 //
 
 #import "JYBaseAPIManager.h"
-#import "RACAFNetworking/AFHTTPSessionManager+RACSupport.h"
+#import <AFNetworking-RACExtensions/AFHTTPSessionManager+RACSupport.h>
 
 @interface JYCommonAPIManager : JYBaseAPIManager
 

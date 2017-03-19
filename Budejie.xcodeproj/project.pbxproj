@@ -23,7 +23,6 @@
 		7BF982E31E7E5EC900CD27C8 /* JYCommonAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982E21E7E5EC900CD27C8 /* JYCommonAPIManager.m */; };
 		7BF982EA1E7E690100CD27C8 /* JYAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982E91E7E690100CD27C8 /* JYAdModel.m */; };
 		7BF982EF1E7E692E00CD27C8 /* JYAdViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF982EE1E7E692E00CD27C8 /* JYAdViewModel.m */; };
-		7BF983031E7E7E6200CD27C8 /* RACAFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 7BF983021E7E7E6200CD27C8 /* RACAFNetworking */; };
 		8B444BCBD42F5AE484938FDD /* libPods-BudejieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A6D2D9432B97DD940AA801 /* libPods-BudejieTests.a */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +76,6 @@
 		7BF982E91E7E690100CD27C8 /* JYAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAdModel.m; sourceTree = "<group>"; };
 		7BF982ED1E7E692E00CD27C8 /* JYAdViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAdViewModel.h; sourceTree = "<group>"; };
 		7BF982EE1E7E692E00CD27C8 /* JYAdViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAdViewModel.m; sourceTree = "<group>"; };
-		7BF983021E7E7E6200CD27C8 /* RACAFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RACAFNetworking; sourceTree = "<group>"; };
 		8CD27DBF476739B113024C75 /* Pods-Budejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Budejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Budejie/Pods-Budejie.debug.xcconfig"; sourceTree = "<group>"; };
 		8D442BED30AB69B398815783 /* Pods-BudejieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudejieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudejieTests/Pods-BudejieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC10752B4C278C5BF9C058FB /* libPods-BudejieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BudejieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,7 +218,6 @@
 		7BF982DE1E7E554100CD27C8 /* utility */ = {
 			isa = PBXGroup;
 			children = (
-				7BF983021E7E7E6200CD27C8 /* RACAFNetworking */,
 			);
 			name = utility;
 			sourceTree = "<group>";
@@ -382,7 +379,6 @@
 				7BF982AD1E7E220700CD27C8 /* Assets.xcassets in Resources */,
 				7BF982AB1E7E220700CD27C8 /* Main.storyboard in Resources */,
 				7BF982D91E7E27A400CD27C8 /* JYAdsViewController.storyboard in Resources */,
-				7BF983031E7E7E6200CD27C8 /* RACAFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
-#import "RACAFNetworking/AFHTTPSessionManager+RACSupport.h"
+#import <AFNetworking-RACExtensions/AFHTTPSessionManager+RACSupport.h>
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, SLInternalNetworkingErrorCode) {

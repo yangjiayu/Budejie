@@ -9,9 +9,8 @@ target 'Budejie' do
   pod 'Mantle'
   pod 'SDWebImage'
   pod 'ReactiveCocoa', '~>2.5.0'
-  pod 'AFNetworking'
   pod 'MJRefresh'
-  
+  pod 'AFNetworking-RACExtensions'
  target 'BudejieTests' do
     inherit! :search_paths
     # Pods for testing

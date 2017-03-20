@@ -9,6 +9,7 @@
 #import "JYAdsViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "JYAdViewModel.h"
+#import "JYTabViewController.h"
 
 static NSInteger JYADSDefaultTimerSeconds = 3;
 
@@ -16,6 +17,7 @@ static NSInteger JYADSDefaultTimerSeconds = 3;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (nonatomic, strong) JYAdViewModel *viewModel;
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -27,28 +29,45 @@ static NSInteger JYADSDefaultTimerSeconds = 3;
     }
     return _viewModel;
 }
-
-- (RACCommand *)timeCountingCommand {
-    return [[RACCommand alloc] initWithSignalBlock:^RACSignal *(NSNumber *number) {
-        __block NSInteger seconds = [number integerValue];
-        return [[[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-            seconds--;
-            [subscriber sendNext:@(seconds)];
-            [subscriber sendCompleted];
-            return nil;
-        }] delay:1.0] repeat] takeUntilBlock:^BOOL(id x) {
-            return seconds < 0;
-        }];
-    }];
-}
+/*
+ - (RACCommand *)timeCountingCommand {
+ return [[RACCommand alloc] initWithSignalBlock:^RACSignal *(NSNumber *number) {
+ __block NSInteger seconds = [number integerValue];
+ return [[[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+ seconds--;
+ [subscriber sendNext:@(seconds)];
+ [subscriber sendCompleted];
+ return nil;
+ }] delay:1.0] repeat] takeUntilBlock:^BOOL(id x) {
+ return seconds < 0;
+ }];
+ }];
+ }
+ */
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.imageView.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImage" ofType:@"png"]];
     [self.viewModel.requestAds execute:nil];
-    //RAC(self, button.titleLabel.text) = [[self timeCountingCommand] execute:@(JYADSDefaultTimerSeconds)];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerCounting:) userInfo:nil repeats:YES];
+    @weakify(self);
+    self.button.rac_command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
+        @strongify(self);
+        JYTabViewController *tab = [[JYTabViewController alloc] init];
+        [UIApplication sharedApplication].keyWindow.rootViewController = tab;
+        [self.timer invalidate];
+        return [RACSignal empty];
+    }];
+}
 
+- (void)timerCounting: (NSTimer *)timer {
+    if (JYADSDefaultTimerSeconds == 0) {
+        JYTabViewController *tab = [[JYTabViewController alloc] init];
+        [UIApplication sharedApplication].keyWindow.rootViewController = tab;
+        [self.timer invalidate];
+    }
+    JYADSDefaultTimerSeconds--;
+    [self.button setTitle:[NSString stringWithFormat:@"跳过(%zd)", JYADSDefaultTimerSeconds] forState:UIControlStateNormal];
 }
 
 @end
